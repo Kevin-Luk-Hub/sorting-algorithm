@@ -1,6 +1,6 @@
 public class insertion_sort<T extends Comparable<T>> {
 
-    public static <T extends Comparable<T>> T[] sort(T[] list) {
+    public static <T extends Comparable<T>> void sort(T[] list) {
         for(int i=1; i < list.length; i++) {
             T compareVal = list[i];
             int j = i-1;
@@ -10,7 +10,6 @@ public class insertion_sort<T extends Comparable<T>> {
             }
             list[j+1] = compareVal;
         }
-        return list;
     }
 
     public static <T extends Comparable<T>> void printArray(T[] list) {
