@@ -1,22 +1,51 @@
+import sorting.*;
+
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class main {
 
+    private static int[] createArray(int size) {
+        int[] array = new int[size];
+
+        for (int i = 0; i < size; i++) {
+            array[i] = (int) (Math.random() * size);
+        }
+
+        return array;
+    }
+
     public static void main(String[] args) {
+        System.out.println("\nWelcome to the sorting algorithm timer!");
+
+        String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss")
+                .format(new java.util.Date());
+        System.out.println(timeStamp + '\n');
+
         Scanner input = new Scanner(System.in);
-        System.out.println("\n Welcome to the sorting algorithm timer! \n");
 
-        Integer[] bubbleList = new Integer[]{1,6,2,4,3,8,9,0,-2};
-        Integer[] insertionList = new Integer[]{1,6,2,4,3,8,9,0,-2};
-        Integer[] selectionList = new Integer[]{1,6,2,4,3,8,9,0,-2};
+        System.out.print("Input an integer value for the size of the array: ");
 
-        bubble_sort.sort(bubbleList);
-        insertion_sort.sort(insertionList);
-        selection_sort.sort(selectionList);
+        int size = input.nextInt();
+        int[] array = createArray(size);
 
-        System.out.println(Arrays.toString(bubbleList));
-        System.out.println(Arrays.toString(insertionList));
-        System.out.println(Arrays.toString(selectionList));
+        int[] bubbleList = array.clone();
+        int[] insertionList = array.clone();
+        int[] selectionList = array.clone();
+        int[] mergeList = array.clone();
+        int[] quickList = array.clone();
+
+        merge_sort mergeSort = new merge_sort();
+        quick_sort quickSort = new quick_sort();
+        selection_sort selectionSort = new selection_sort();
+        insertion_sort insertionSort = new insertion_sort();
+        bubble_sort bubbleSort = new bubble_sort();
+
+        mergeSort.getTime(mergeList);
+        quickSort.getTime(quickList);
+        selectionSort.getTime(selectionList);
+        insertionSort.getTime(insertionList);
+        bubbleSort.getTime(bubbleList);
     }
 }

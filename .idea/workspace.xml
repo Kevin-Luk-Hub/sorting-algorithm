@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d08f538-7bd9-4025-8b8a-5c8b9be36bde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sorting/merge_sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithm/insertion_sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithm/insertion_sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithm/bubble_sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithm/insertion_sort.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithm/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithm/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithm/selection_sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithm/selection_sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/insertion_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/insertion_sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithm/selection_sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bubble_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/bubble_sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/insertion_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/insertion_sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selection_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selection_sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/merge_sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quick_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/quick_sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selection_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/selection_sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -41,6 +46,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NCAATourney" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
@@ -68,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593708487413</updated>
-      <workItem from="1593708488781" duration="14930000" />
+      <workItem from="1593708488781" duration="33530000" />
     </task>
     <servers />
   </component>
@@ -76,21 +85,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="954" height="288" key="GridCell.Tab.0.bottom" timestamp="1593727153788">
+    <state x="4100" y="277" key="FileChooserDialogImpl" timestamp="1593735945559">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="288" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593727153788" />
-    <state width="954" height="288" key="GridCell.Tab.0.center" timestamp="1593727153788">
+    <state x="4100" y="277" key="FileChooserDialogImpl/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593735945559" />
+    <state width="954" height="288" key="GridCell.Tab.0.bottom" timestamp="1593766654694">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="288" key="GridCell.Tab.0.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593727153788" />
-    <state width="954" height="288" key="GridCell.Tab.0.left" timestamp="1593727153788">
+    <state width="954" height="288" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593766654694" />
+    <state width="954" height="288" key="GridCell.Tab.0.center" timestamp="1593766654694">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="288" key="GridCell.Tab.0.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593727153788" />
-    <state width="954" height="288" key="GridCell.Tab.0.right" timestamp="1593727153788">
+    <state width="954" height="288" key="GridCell.Tab.0.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593766654694" />
+    <state width="954" height="288" key="GridCell.Tab.0.left" timestamp="1593766654693">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="288" key="GridCell.Tab.0.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593727153788" />
+    <state width="954" height="288" key="GridCell.Tab.0.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593766654693" />
+    <state width="954" height="288" key="GridCell.Tab.0.right" timestamp="1593766654694">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="954" height="288" key="GridCell.Tab.0.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593766654694" />
+    <state x="3840" y="97" key="SettingsEditor" timestamp="1593762773605">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3840" y="97" key="SettingsEditor/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593762773605" />
+    <state x="4026" y="141" key="refactoring.ChangeSignatureDialog" timestamp="1593751538884">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state x="4026" y="141" key="refactoring.ChangeSignatureDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593751538884" />
   </component>
 </project>
