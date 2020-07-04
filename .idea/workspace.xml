@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9d08f538-7bd9-4025-8b8a-5c8b9be36bde" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithm/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithm/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithm/sorting/bubble_sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithm/sorting/bubble_sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithm/sorting/insertion_sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithm/sorting/insertion_sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithm/sorting/merge_sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithm/sorting/merge_sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithm/sorting/quick_sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithm/sorting/quick_sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithm/sorting/selection_sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithm/sorting/selection_sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/Algorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/Algorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/bubble_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/bubble_sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/insertion_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/insertion_sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/merge_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/merge_sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/quick_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/quick_sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/selection_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/selection_sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593708487413</updated>
-      <workItem from="1593708488781" duration="52984000" />
+      <workItem from="1593708488781" duration="53811000" />
     </task>
     <servers />
   </component>
@@ -95,22 +83,22 @@
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state x="4100" y="277" key="FileChooserDialogImpl/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593813624492" />
-    <state width="954" height="208" key="GridCell.Tab.0.bottom" timestamp="1593822584864">
+    <state width="954" height="208" key="GridCell.Tab.0.bottom" timestamp="1593822736961">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="208" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593822584864" />
-    <state width="954" height="208" key="GridCell.Tab.0.center" timestamp="1593822584864">
+    <state width="954" height="208" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593822736961" />
+    <state width="954" height="208" key="GridCell.Tab.0.center" timestamp="1593822736961">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="208" key="GridCell.Tab.0.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593822584864" />
-    <state width="954" height="208" key="GridCell.Tab.0.left" timestamp="1593822584863">
+    <state width="954" height="208" key="GridCell.Tab.0.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593822736961" />
+    <state width="954" height="208" key="GridCell.Tab.0.left" timestamp="1593822736961">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="208" key="GridCell.Tab.0.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593822584863" />
-    <state width="954" height="208" key="GridCell.Tab.0.right" timestamp="1593822584864">
+    <state width="954" height="208" key="GridCell.Tab.0.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593822736961" />
+    <state width="954" height="208" key="GridCell.Tab.0.right" timestamp="1593822736961">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="208" key="GridCell.Tab.0.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593822584864" />
+    <state width="954" height="208" key="GridCell.Tab.0.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593822736961" />
     <state width="954" height="355" key="GridCell.Tab.1.bottom" timestamp="1593808180997">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
