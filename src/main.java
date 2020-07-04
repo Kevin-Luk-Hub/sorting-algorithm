@@ -17,9 +17,10 @@ public class main {
     }
 
     public static void main(String[] args) {
+        System.out.print("========================================================");
         System.out.println("\nWelcome to the sorting algorithm timer!");
 
-        String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss")
+        String timeStamp = new SimpleDateFormat("yyyy.MM.dd hh:mm:ss aa")
                 .format(new java.util.Date());
         System.out.println(timeStamp + '\n');
 
@@ -30,22 +31,27 @@ public class main {
         int size = input.nextInt();
         int[] array = createArray(size);
 
-        int[] bubbleList = array.clone();
-        int[] insertionList = array.clone();
-        int[] selectionList = array.clone();
         int[] mergeList = array.clone();
         int[] quickList = array.clone();
+        int[] selectionList = array.clone();
+        int[] insertionList = array.clone();
+        int[] bubbleList = array.clone();
+        int[] gnomeList = array.clone();
 
         merge_sort mergeSort = new merge_sort();
         quick_sort quickSort = new quick_sort();
         selection_sort selectionSort = new selection_sort();
         insertion_sort insertionSort = new insertion_sort();
         bubble_sort bubbleSort = new bubble_sort();
+        gnome_sort gnomeSort = new gnome_sort();
 
         mergeSort.getTime(mergeList);
         quickSort.getTime(quickList);
         selectionSort.getTime(selectionList);
         insertionSort.getTime(insertionList);
         bubbleSort.getTime(bubbleList);
+        gnomeSort.getTime(gnomeList);
+
+        System.out.print("========================================================");
     }
 }

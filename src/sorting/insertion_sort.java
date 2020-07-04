@@ -1,29 +1,31 @@
 package sorting;
 
 public class insertion_sort implements Algorithms {
-
-    public void runSort(int[] list) {
-        for(int i=1; i < list.length; i++) {
-            int compareVal = list[i];
+    @Override
+    public void runSort(int[] arr) {
+        for(int i=1; i < arr.length; i++) {
+            int compareVal = arr[i];
             int j = i-1;
-            while(j >=0 && compareVal < list[j]) {
-                list[j+1] = list[j];
+            while(j >=0 && compareVal < arr[j]) {
+                arr[j+1] = arr[j];
                 j--;
             }
-            list[j+1] = compareVal;
+            arr[j+1] = compareVal;
         }
     }
 
-    public void printArray(int[] list) {
-        for(int x: list) {
+    @Override
+    public void printArray(int[] arr) {
+        for(int x: arr) {
             System.out.print(x + " ");
         }
         System.out.println();
     }
 
-    public void getTime(int[] list) {
+    @Override
+    public void getTime(int[] arr) {
         long starTime = System.currentTimeMillis();
-        runSort(list);
+        runSort(arr);
         long endTime = System.currentTimeMillis();
         long completedTime = endTime - starTime;
 

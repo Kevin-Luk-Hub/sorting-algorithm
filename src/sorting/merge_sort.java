@@ -1,28 +1,28 @@
 package sorting;
 
 public class merge_sort implements Algorithms {
-
-    public void runSort(int[] list) {
-        if (list.length <= 1) {
+    @Override
+    public void runSort(int[] arr) {
+        if (arr.length <= 1) {
             return;
         }
-        mergeBreakdown(list, 0, list.length - 1);
+        mergeBreakdown(arr, 0, arr.length - 1);
     }
 
-    public void mergeBreakdown(int[] list, int low, int high) {
+    public void mergeBreakdown(int[] arr, int low, int high) {
         if (low < high) {
             int mid = (high + low) / 2;
-            mergeBreakdown(list, low, mid);
-            mergeBreakdown(list, mid + 1, high);
-            merge(list, low, mid, high);
+            mergeBreakdown(arr, low, mid);
+            mergeBreakdown(arr, mid + 1, high);
+            merge(arr, low, mid, high);
         }
     }
 
-    public void merge(int[] list, int low, int mid, int high) {
+    public void merge(int[] arr, int low, int mid, int high) {
         int[] temp = new int[high + 1];
 
         for (int i = low; i <= high; i++) {
-            temp[i] = list[i];
+            temp[i] = arr[i];
         }
 
         int i = low;
@@ -31,34 +31,34 @@ public class merge_sort implements Algorithms {
 
         while (i <= mid && j <= high) {
             if (temp[i] <= temp[j]) {
-                list[k] = temp[i];
+                arr[k] = temp[i];
                 i++;
             } else {
-                list[k] = temp[j];
+                arr[k] = temp[j];
                 j++;
             }
             k++;
         }
 
         while (i <= mid) {
-            list[k] = temp[i];
+            arr[k] = temp[i];
             k++;
             i++;
         }
-
-
     }
 
-    public void printArray(int[] list) {
-        for (int x : list) {
+    @Override
+    public void printArray(int[] arr) {
+        for (int x : arr) {
             System.out.print(x + " ");
         }
         System.out.println();
     }
 
-    public void getTime(int[] list) {
+    @Override
+    public void getTime(int[] arr) {
         long starTime = System.currentTimeMillis();
-        runSort(list);
+        runSort(arr);
         long endTime = System.currentTimeMillis();
         long completedTime = endTime - starTime;
 

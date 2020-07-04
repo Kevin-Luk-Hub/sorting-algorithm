@@ -1,33 +1,35 @@
 package sorting;
 
 public class selection_sort implements Algorithms {
-
-    public void runSort(int[] list) {
-        for(int i=0; i < list.length-1; i++) {
+    @Override
+    public void runSort(int[] arr) {
+        for(int i=0; i < arr.length-1; i++) {
             int currentMinIndex = i;
-            for(int j=i+1; j < list.length; j++) {
-                if(list[j] < list[currentMinIndex]) {
+            for(int j=i+1; j < arr.length; j++) {
+                if(arr[j] < arr[currentMinIndex]) {
                     currentMinIndex = j;
                 }
             }
             if(currentMinIndex != i) {
-                int temp = list[i];
-                list[i] = list[currentMinIndex];
-                list[currentMinIndex] = temp;
+                int temp = arr[i];
+                arr[i] = arr[currentMinIndex];
+                arr[currentMinIndex] = temp;
             }
         }
     }
 
-    public void printArray(int[] list) {
-        for(int x: list) {
+    @Override
+    public void printArray(int[] arr) {
+        for(int x: arr) {
             System.out.print(x + " ");
         }
         System.out.println();
     }
 
-    public void getTime(int[] list) {
+    @Override
+    public void getTime(int[] arr) {
         long starTime = System.currentTimeMillis();
-        runSort(list);
+        runSort(arr);
         long endTime = System.currentTimeMillis();
         long completedTime = endTime - starTime;
 

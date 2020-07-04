@@ -1,53 +1,90 @@
 package sorting;
 
-public class quick_sort implements Algorithms{
-    public void runSort(int[] list) {
-        if(list.length <= 1) {
+public class quick_sort implements Algorithms {
+    @Override
+    public void runSort(int[] arr) {
+        if (arr.length <= 1) {
             return;
         }
-        quickSort(list, 0, list.length-1);
+        quickSort(arr, 0, arr.length - 1);
     }
 
-    public void quickSort(int arr[], int begin, int end) {
-        if (begin < end) {
-            int partitionIndex = partition(arr, begin, end);
-
-            quickSort(arr, begin, partitionIndex-1);
-            quickSort(arr, partitionIndex+1, end);
+    public void quickSort(int arr[], int low, int high) {
+        if (low < high) {
+            int partitionIndex = partition(arr, low, high);
+            quickSort(arr, low, partitionIndex - 1);
+            quickSort(arr, partitionIndex + 1, high);
         }
     }
 
-    private int partition(int arr[], int begin, int end) {
-        int pivot = arr[end];
-        int i = (begin-1);
+    private int partition(int arr[], int low, int high) {
+//        int pivot = arr[high];
+//        int i = (low-1);
+//
+//        for (int j = low; j < high; j++) {
+//            if (arr[j] <= pivot) {
+//                i++;
+//                swap(arr, i, j);
+//            }
+//        }
+//        swap(arr, i+1, high);
+//        return i+1;
+//
+        int pivot = arr[low];
+        int i = low;
+        int j = high + 1;
+//
+//        while (i < j) {
+//            while (i < high && pivot <= arr[i]) {
+//                i++;
+//            }
+//            while (j > low && pivot > arr[j]) {
+//                j--;
+//            }
+//            if (i < j) {
+//                swap(arr, i, j);
+//            }
+//        }
+//
+//        swap(arr, low, j);
+//        return j;
 
-        for (int j = begin; j < end; j++) {
-            if (arr[j] <= pivot) {
+        while (i < j) {
+            do {
                 i++;
+            } while (i < high && arr[i] <= pivot);
 
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
+            do {
+                j--;
+            } while (j > low && arr[j] > pivot);
+            if (i < j) {
+                swap(arr, i, j);
             }
         }
 
-        int temp = arr[i+1];
-        arr[i+1] = arr[end];
-        arr[end] = temp;
+        swap(arr, low, j);
 
-        return i+1;
+        return j;
     }
 
-    public void printArray(int[] list) {
-        for (int x : list) {
+    public static void swap(int arr[], int a, int b) {
+        int temp = arr[a];
+        arr[a] = arr[b];
+        arr[b] = temp;
+    }
+
+    @Override
+    public void printArray(int[] arr) {
+        for (int x : arr) {
             System.out.print(x + " ");
         }
         System.out.println();
     }
 
-    public void getTime(int[] list) {
+    @Override
+    public void getTime(int[] arr) {
         long starTime = System.currentTimeMillis();
-        runSort(list);
+        runSort(arr);
         long endTime = System.currentTimeMillis();
         long completedTime = endTime - starTime;
 
