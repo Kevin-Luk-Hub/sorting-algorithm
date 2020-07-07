@@ -18,36 +18,9 @@ public class quick_sort implements Algorithms {
     }
 
     private int partition(int arr[], int low, int high) {
-//        int pivot = arr[high];
-//        int i = (low-1);
-//
-//        for (int j = low; j < high; j++) {
-//            if (arr[j] <= pivot) {
-//                i++;
-//                swap(arr, i, j);
-//            }
-//        }
-//        swap(arr, i+1, high);
-//        return i+1;
-//
         int pivot = arr[low];
         int i = low;
         int j = high + 1;
-//
-//        while (i < j) {
-//            while (i < high && pivot <= arr[i]) {
-//                i++;
-//            }
-//            while (j > low && pivot > arr[j]) {
-//                j--;
-//            }
-//            if (i < j) {
-//                swap(arr, i, j);
-//            }
-//        }
-//
-//        swap(arr, low, j);
-//        return j;
 
         while (i < j) {
             do {
