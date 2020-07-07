@@ -10,3 +10,4 @@ The sorting algorithms included:
 - Insertion sort  
 - Merge sort  
 - Quick sort  
+- Heap sort (Coming soon)
