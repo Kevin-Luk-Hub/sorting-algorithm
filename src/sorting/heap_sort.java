@@ -6,6 +6,10 @@ public class heap_sort implements Algorithms {
 
     }
 
+    public void heapify(int[] arr) {
+
+    }
+
     @Override
     public void printArray(int[] arr) {
 
