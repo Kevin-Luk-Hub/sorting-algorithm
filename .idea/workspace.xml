@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9d08f538-7bd9-4025-8b8a-5c8b9be36bde" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithm/controller/arrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithm/controller/arrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithm/controller/timeCalculation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithm/controller/timeCalculation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithm/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithm/main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/heap_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/heap_sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/timeCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/timeCalculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +76,8 @@
       <workItem from="1594149473210" duration="3954000" />
       <workItem from="1594174865680" duration="347000" />
       <workItem from="1594175586511" duration="645000" />
-      <workItem from="1594197081444" duration="542000" />
+      <workItem from="1594197081444" duration="780000" />
+      <workItem from="1594349982106" duration="2626000" />
     </task>
     <servers />
   </component>
@@ -84,26 +89,26 @@
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state x="4125" y="232" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1594153474576" />
-    <state x="4100" y="277" key="FileChooserDialogImpl" timestamp="1593813624492">
+    <state x="4100" y="277" key="FileChooserDialogImpl" timestamp="1594350217829">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="4100" y="277" key="FileChooserDialogImpl/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593813624492" />
-    <state width="954" height="206" key="GridCell.Tab.0.bottom" timestamp="1594197672324">
+    <state x="4100" y="277" key="FileChooserDialogImpl/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1594350217829" />
+    <state width="954" height="204" key="GridCell.Tab.0.bottom" timestamp="1594352458586">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="206" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1594197672324" />
-    <state width="954" height="206" key="GridCell.Tab.0.center" timestamp="1594197672324">
+    <state width="954" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1594352458586" />
+    <state width="954" height="204" key="GridCell.Tab.0.center" timestamp="1594352458585">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="206" key="GridCell.Tab.0.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1594197672324" />
-    <state width="954" height="206" key="GridCell.Tab.0.left" timestamp="1594197672324">
+    <state width="954" height="204" key="GridCell.Tab.0.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1594352458585" />
+    <state width="954" height="204" key="GridCell.Tab.0.left" timestamp="1594352458585">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="206" key="GridCell.Tab.0.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1594197672324" />
-    <state width="954" height="206" key="GridCell.Tab.0.right" timestamp="1594197672324">
+    <state width="954" height="204" key="GridCell.Tab.0.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1594352458585" />
+    <state width="954" height="204" key="GridCell.Tab.0.right" timestamp="1594352458586">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="206" key="GridCell.Tab.0.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1594197672324" />
+    <state width="954" height="204" key="GridCell.Tab.0.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1594352458586" />
     <state width="954" height="355" key="GridCell.Tab.1.bottom" timestamp="1593823603450">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
@@ -124,10 +129,10 @@
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state x="3840" y="97" key="SettingsEditor/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1593762773605" />
-    <state x="4016" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1594197084742">
+    <state x="4016" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1594349986332">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="4016" y="344" key="com.intellij.ide.util.TipDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1594197084742" />
+    <state x="4016" y="344" key="com.intellij.ide.util.TipDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1594349986332" />
     <state x="4026" y="141" key="refactoring.ChangeSignatureDialog" timestamp="1593751538884">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>

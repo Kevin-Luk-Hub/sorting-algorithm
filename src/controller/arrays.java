@@ -19,7 +19,7 @@ public class arrays {
                 number = Integer.parseInt(checkInt);
                 isInteger = true;
             } catch (NumberFormatException e) {
-                System.out.println("ERROR: Did not enter an integer value.");
+                System.out.println("ERROR: Did not enter an integer value: " + menuValue);
                 System.out.println();
             }
         }

@@ -12,9 +12,6 @@ public class main {
                 .format(new java.util.Date());
         System.out.println(timeStamp + '\n');
 
-        int size = arrays.getSize();
-        int[] array = arrays.createArray(size);
-
-        timeCalculation.sortingTimes(array);
+        timeCalculation.sortingTimes();
     }
 }
